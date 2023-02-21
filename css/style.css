@@ -1,0 +1,44 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttom a{
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER */
+
+header{
+  height: 80px;
+  background-color: #3161E0;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+header .menu ul{
+  list-style: none;
+  display: flex;
+}
+
+header .menu ul li{
+  margin: 0 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+/* MAIN */
+/* FOOTER */
