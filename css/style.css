@@ -100,16 +100,21 @@ align-self: center;
   border-radius: 30px;
   padding: 16px 30px;
   margin-right: 50px;
+  font-weight: bold;
 }
 
+.buttomwhite i{
+  padding-right: 15px;
+}
 
 .buttomblack{
   color: white;
   text-decoration: none;
   font-size: 22px;
-  background-color: black;
+  background-color: #23272A;
   border-radius: 30px;
   padding: 16px 32px;
+  font-weight: bold;
 }
 
 /* MAIN */
@@ -154,16 +159,50 @@ section .container .text p{
  text-align: center;
 }
 
+.container2 .text2 p{
+  font-size: 20px;
+  line-height: 2rem;
+  padding: 20px 4rem 0 4rem ;
+}
+
+.container2 .text2 h2{
+  font-size: 48px;
+}
+
 .image2 img{
   width: 100%;
 }
 
 .image3 img{
-  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
 }
 h3{
   text-align: center;
   font-size: 30px;
 }
+
+.button-main{
+text-align: center;
+padding-top: 50px;
+}
+
+.button-main a{
+  color: white;
+  text-decoration: none;
+  background-color: #8EA1E1;
+  border-radius: 30px;
+  padding: 15px 28px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.button-main i{
+  padding-right: 15px;
+}
+
 /* FOOTER */
+
