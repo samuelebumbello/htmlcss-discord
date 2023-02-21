@@ -5,21 +5,36 @@
   box-sizing: border-box;
 }
 
-.buttom a{
-  text-decoration: none;
-  color: white;
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.onda-sopra img{
+
 }
 
 /* HEADER */
 
 header{
   height: 80px;
-  background-color: #3161E0;
+  background-color: #255EE9;
 }
 
 header .container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
@@ -34,11 +49,121 @@ header .menu ul li{
   color: white;
 }
 
+header .buttom a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 13px;
+  padding: 10px 16px;
+}
+
+/* JUMBO */
+
+.jumbotron{
+  display: flex;
+  height: 600px;
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
 
 
+.content{
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.content p{
+  font-size: 20px;
+  line-height: 2rem;
+  padding-top: 20px;
+}
+
+.buttomjumbo{
+display: flex;
+justify-content: space-around;
+align-self: center;
+}
+
+.buttomwhite{
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 16px 30px;
+  margin-right: 50px;
+}
 
 
-
+.buttomblack{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: black;
+  border-radius: 30px;
+  padding: 16px 32px;
+}
 
 /* MAIN */
+
+section{
+  padding: 30px 0;
+  min-height: 400px;
+}
+
+section .container{
+  display: flex;
+  justify-content: space-between;
+ 
+  padding-top: 80px;
+  height: 600px;
+}
+
+section .container .image{
+  width: 60%;
+}
+
+section .container .image img{
+  width: 100%;
+}
+section .container .text{
+  width: 25%;
+  padding-top: 30px;
+}
+
+section .container .text p{
+  font-size: 20px;
+  line-height: 2rem;
+  padding-top: 30px;
+}
+
+.container2{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container2 .text2{
+ text-align: center;
+}
+
+.image2 img{
+  width: 100%;
+}
+
+.image3 img{
+  width: 60%;
+
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+}
 /* FOOTER */
